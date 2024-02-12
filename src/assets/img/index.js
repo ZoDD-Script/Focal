@@ -6,6 +6,7 @@ import cat5 from './Striplight.png'
 import cat6 from './CeilingMounted.png'
 import logo from './logo.png'
 import logowhite from './logo_white.png'
+import team1 from './team1.png'
 
 export {
   cat1,
@@ -16,4 +17,5 @@ export {
   cat6,
   logo,
   logowhite,
+  team1,
 }
