@@ -56,7 +56,7 @@ function App() {
       <Portfolio portfolioLinks={portfolioLinks}></Portfolio>
       <About />
       <Team />
-      <Socials />
+      {/* <Socials /> */}
       {/* <Contact /> */}
       <Footer />
     </div>

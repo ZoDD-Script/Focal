@@ -40,7 +40,7 @@ const Team = () => {
             <div className="team-member">
               <img className="mx-auto rounded-circle" src={team1} alt="Seun"/>
               <h4>Oluwaseun Bolarinwa</h4>
-              <p className="text-muted">Head of Project/asst Sales Manager</p>
+              <p className="text-muted">Head of Project</p>
               {/* <ul className="list-inline social-buttons">
                 <li className="list-inline-item">
                   <a href="#something">

@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-md-4">
-            <span className="copyright">Copyright &copy; Focal 2024</span>
+            <span className="copyright">Copyright &copy; Focale 2024</span>
           </div>
           <div className="col-md-4">
             <ul className="list-inline social-buttons">

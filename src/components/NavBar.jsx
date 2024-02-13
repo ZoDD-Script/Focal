@@ -1,5 +1,6 @@
 import React from 'react'
 import { logowhite } from '../assets/img'
+import { Link } from 'react-scroll'
 
 const NavBar = () => {
   return (
@@ -13,20 +14,20 @@ const NavBar = () => {
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav text-uppercase ml-auto">
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#services">Services</a>
+              <Link className="nav-link js-scroll-trigger" to="services" smooth={true} duration={500}>Services</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <Link className="nav-link js-scroll-trigger" to="portfolio" smooth={true} duration={500}>Categories</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#about">About</a>
+              <Link className="nav-link js-scroll-trigger" to="about" smooth={true} duration={500}>About</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#team">Team</a>
+              <Link className="nav-link js-scroll-trigger" to="team" smooth={true} duration={500}>Team</Link>
             </li>
-            <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
+            {/* <li className="nav-item">
+              <Link className="nav-link js-scroll-trigger" to="contact" smooth={true} duration={500}>Contact</Link>
+            </li> */}
           </ul>
         </div>
       </div>

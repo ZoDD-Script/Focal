@@ -1,4 +1,5 @@
 import React from 'react'
+import { bestsellers1, bestsellers2 } from '../assets/img'
 
 const About = () => {
   return (
@@ -15,7 +16,7 @@ const About = () => {
             <ul className="timeline">
               <li>
                 <div className="timeline-image">
-                  <img className="rounded-circle img-fluid" src="img/about/1.jpg" alt=""/>
+                  <img className="rounded-circle img-fluid" src={bestsellers1} alt="" />
                 </div>
                 <div className="timeline-panel">
                   <div className="timeline-heading">
@@ -29,7 +30,7 @@ const About = () => {
               </li>
               <li className="timeline-inverted">
                 <div className="timeline-image">
-                  <img className="rounded-circle img-fluid" src="img/about/2.jpg" alt=""/>
+                  <img className="rounded-circle img-fluid" src={bestsellers2} alt=""/>
                 </div>
                 <div className="timeline-panel">
                   <div className="timeline-heading">
@@ -43,7 +44,7 @@ const About = () => {
               </li>
               <li>
                 <div className="timeline-image">
-                  <img className="rounded-circle img-fluid" src="img/about/3.jpg" alt=""/>
+                  <img className="rounded-circle img-fluid" src={bestsellers1} alt=""/>
                 </div>
                 <div className="timeline-panel">
                   <div className="timeline-heading">
@@ -57,7 +58,7 @@ const About = () => {
               </li>
               <li className="timeline-inverted">
                 <div className="timeline-image">
-                  <img className="rounded-circle img-fluid" src="img/about/4.jpg" alt=""/>
+                  <img className="rounded-circle img-fluid" src={bestsellers2} alt=""/>
                 </div>
                 <div className="timeline-panel">
                   <div className="timeline-heading">
