@@ -14,7 +14,7 @@ const Team = () => {
         <div className="row">
           <div className="col-sm-4">
             <div className="team-member">
-              <img className="mx-auto rounded-circle" src={team3} alt="Dapo" />
+              <img className="mx-auto rounded-circle" src={team1} alt="Dapo" />
               <h4>Adedapo Adewole</h4>
               <p className="text-muted">Business Development Manager</p>
               {/* <ul className="list-inline social-buttons">
