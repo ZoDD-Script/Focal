@@ -17,7 +17,7 @@ const Services = () => {
               <i className="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
             </span>
             <h4 className="service-heading">Commercial Installation</h4>
-            <p className="text-muted">Elevate your business environment with our commercial installation service. From retail spaces to corporate offices, our team ensures that your lighting not only enhances the aesthetics but also optimizes energy efficiency and productivity.</p>
+            <p className="text-muted">From retail spaces to corporate offices, our team ensures that your lighting not only enhances the aesthetics but also optimizes energy efficiency and productivity.</p>
           </div>
           <div className="col-md-4">
             <span className="fa-stack fa-4x">
