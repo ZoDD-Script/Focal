@@ -1,5 +1,5 @@
 import React from 'react'
-import { team1 } from '../assets/img'
+import { team1, team2 } from '../assets/img'
 
 const Team = () => {
   return (
@@ -62,7 +62,7 @@ const Team = () => {
           </div>
           <div className="col-sm-4">
             <div className="team-member">
-              <img className="mx-auto rounded-circle" src={team1} alt="Niyi"/>
+              <img className="mx-auto rounded-circle" src={team2} alt="Niyi"/>
               <h4>Omoniyi Adamson</h4>
               <p className="text-muted">Project Sales Consultant</p>
               {/* <ul className="list-inline social-buttons">

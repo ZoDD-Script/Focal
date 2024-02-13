@@ -7,8 +7,11 @@ import cat6 from './CeilingMounted.png'
 import logo from './logo.png'
 import logowhite from './logo_white.png'
 import team1 from './team1.png'
+import team2 from './team2.png'
 import bestsellers1 from './bestsellers1.png'
 import bestsellers2 from './bestsellers2.png'
+import bestsellers3 from './DoubleGang.png'
+import bestsellers4 from './PendantLight.png'
 
 export {
   cat1,
@@ -20,6 +23,9 @@ export {
   logo,
   logowhite,
   team1,
+  team2,
   bestsellers1,
   bestsellers2,
+  bestsellers3,
+  bestsellers4,
 }
