@@ -8,6 +8,7 @@ import logo from './logo.png'
 import logowhite from './logo_white.png'
 import team1 from './team1.png'
 import team2 from './team2.png'
+import team3 from './team3.jpg'
 import bestsellers1 from './bestsellers1.png'
 import bestsellers2 from './bestsellers2.png'
 import bestsellers3 from './DoubleGang.png'
@@ -24,6 +25,7 @@ export {
   logowhite,
   team1,
   team2,
+  team3,
   bestsellers1,
   bestsellers2,
   bestsellers3,
