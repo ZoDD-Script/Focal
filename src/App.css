@@ -27,6 +27,12 @@
   cursor: pointer;
 }
 
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .timeline-image {
   display: flex;
   align-items: center;

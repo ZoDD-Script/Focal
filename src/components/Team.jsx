@@ -12,12 +12,12 @@ const Team = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-sm-4">
+          {/* <div className="col-sm-4">
             <div className="team-member">
               <img className="mx-auto rounded-circle" src={team1} alt="Dapo" />
               <h4>Adedapo Adewole</h4>
               <p className="text-muted">Business Development Manager</p>
-              {/* <ul className="list-inline social-buttons">
+              <ul className="list-inline social-buttons">
                 <li className="list-inline-item">
                   <a href="#something">
                     <i className="fa fa-twitter"></i>
@@ -33,9 +33,9 @@ const Team = () => {
                     <i className="fa fa-linkedin-in"></i>
                   </a>
                 </li>
-              </ul> */}
+              </ul>
             </div>
-          </div>
+          </div> */}
           <div className="col-sm-4">
             <div className="team-member">
               <img className="mx-auto rounded-circle" src={team1} alt="Seun"/>
